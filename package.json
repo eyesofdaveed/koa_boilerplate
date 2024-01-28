@@ -1,0 +1,46 @@
+{
+  "name": "koa_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate with Monolith Architecture on KoaJs Framework",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyesofdaveed/koa_boilerplate.git"
+  },
+  "author": "Daulet Dauitbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyesofdaveed/koa_boilerplate/issues"
+  },
+  "homepage": "https://github.com/eyesofdaveed/koa_boilerplate#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.1",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-helmet": "^7.0.2",
+    "koa-jwt": "^4.0.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.1",
+    "lodash": "^4.17.21",
+    "mailgun.js": "^10.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^9.0.6",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
+  }
+}
